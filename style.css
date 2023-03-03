@@ -85,14 +85,14 @@ body
 /*year text*/
 .contactInfo.education h5
 {
-    color: #000000;
+    color: #d3d3d3;
     font-weight: 500;
 }
 
 /*degree text*/ 
 .contactInfo.education h4
 {
-    color: rgb(252, 248, 248);
+    color: #FCF8F8;
     font-weight: 500;
 }
 
