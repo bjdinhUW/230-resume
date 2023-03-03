@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+*
+{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Lora', sans-serif;
+
+}
+body
+{
+    background: #4b2e83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin:50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    }
+
+.container .lSide
+{
+    position: relative;
+    background: #85754d;
+    padding: 40px;
+}
+.name
+{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(46, 50, 179, 0.2);
+}
+
+.name h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.name h2 span
+{
+    font-size: 0.8em;
+    font-style: 300;
+}
+.contactInfo
+{
+    padding-top: 40px ;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul li
+{   
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+
+
+
+/*year text*/
+.contactInfo.education h5
+{
+    color: #000000;
+    font-weight: 500;
+}
+
+/*degree text*/ 
+.contactInfo.education h4
+{
+    color: rgb(252, 248, 248);
+    font-weight: 500;
+}
+
+/*color contact info/school*/
+.contactInfo ul li span
+{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/*orient*/
+.container .rSide
+{
+    position: relative;
+    background: #D3D3D3;
+    padding: 40px;
+}
+
+/*sections*/
+.title2
+{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box
+{
+    display:flex ;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company
+{
+    min-width: 150px;
+}
+
+/*job company*/
+.about .box .year_company h5
+{
+    text-transform: uppercase;  
+    font-weight: 600;
+}
+
+/*job titles*/
+.about .box .text h4{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/*name of people*/
+.references ul li{
+    font-weight: 800;
+}
+
+/* references contact info*/
+.references ul li p{
+    font-weight: 100;
+}
+
+
+
+  
